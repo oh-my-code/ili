@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+<title>Курсы английского ILI  в Москве</title>
+<meta charset="UTF-8">
+<html lang="ru" xml:lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+<script src="_js/jquery.min.js"></script>
+
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+/* Full height image header */
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    margin-top: 70px;
+    background-image: url("images/background_olga.001.jpeg");
+    min-height: 100%;
+}
+.w3-bar .w3-button {
+    padding: 16px;
+}
+</style>
+
+
+
+
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide"> <img border="0" alt="Курсы английского" src="images/ili_logo_flat_transp.png" width="100px"></a>
+
+
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">О КУРСАХ</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fas fa-users"></i> КОМАНДА</a>
+      <a href="#work" class="w3-bar-item w3-button"><i class="fas fa-book"></i> МЕТОДИКА</a>
+      <a href="#faq" class="w3-bar-item w3-button"><i class="fas fa-question-circle"></i> FAQ</a>      
+      <a href="#pricing" class="w3-bar-item w3-button"><i class="fas fa-ruble-sign"></i> ЦЕНЫ</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fas fa-mobile-alt"></i> КОНТАКТЫ</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Закрыть ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">О КУРСАХ</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">КОМАНДА</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">МЕТОДИКА</a>
+  <a href="#faq" onclick="w3_close()" class="w3-bar-item w3-button">FAQ</a> 
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">ЦЕНЫ</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">КОНТАКТЫ</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container" id="home">
+  <div class="w3-display-left w3-text-black" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">Welcome to International<br> Language Institute</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Welcome to International<br> Language Institute</span><br>
+    <span class="w3-large">Курсы разговорного английского языка в Москве.<br>Совместный проект с американской школой Language Academy</span>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Узнайте больше</a></p>
+  
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">Изучение английского языка в ILI</h3>
+  <p class="w3-center w3-large">Рядом с метро в центре Москвы. Интересные опытные педагоги. Гарантированный результат.</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fas fa-map w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Где проходит обучение</p>
+      <p>3 минуты от станций м. Пушкинская, Тверская. Комфортабельные кондиционированные аудитории с современной белой мебелью.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fas fa-chalkboard-teacher w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Кто проводит занятия</p>
+      <p>Наша команда состоит из достаточно молодых, но уже опытных преподавателей, которые умеют заинтересовывать, мотивировать, объяснять, контролировать, ломать языковой барьер.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fas fa-comments w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Чему вы научитесь</p>
+      <p>Вы начнете свободно говорить на английском. Наши выпускники также успешно сдают международные экзамены, такие как IELTS.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fas fa-calendar-alt w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Как долго нужно учиться</p>
+      <p>Зависит от вашего текущего уровня. Всего 5 уровней (Beginner, Elementary, Pre-inter, Intermediate, Upper, Advanced. Каждый уровень длится 4-7 месяцев.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section - "Расписание" -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Когда проходят занятия</h3>
+      <p>Приглашаем вас в группы от 2 до 8 человек, которые занимаются:<br>2 раза по будням с 18:30 до 20:00 или с 20:10 до 21:40;<br> или 1 раз по выходным с 12:30 до 15:45.</p>
+      <p>Адрес учебного центра: Москва, ул. Большая Бронная, 23 стр.1, офис 425</p>
+      <p><a href="https://goo.gl/forms/3zxHtrgqvP8PhIF22" target="_blank" class="w3-button w3-red"><i class="fa fa-th"> </i> Записаться на пробный урок</a></p>
+      
+      <p><a href="https://goo.gl/forms/JBRt0ulTVyh5bUj43" target="_blank" class="w3-button w3-grey"><i class="far fa-question-circle"> </i> Пройдите тест для определения уровня</a></p>
+
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="images/inclass_main.jpg" alt="Курсы английского ILI" width="500" height="394">
+    </div>
+  </div>
+</div>
+
+<!-- Team Section -->
+<div class="w3-container" style="padding:128px 16px" id="team">
+  <h3 class="w3-center">Команда супер преподавателей - это наша главная ценность и ваш ключ к успеху</h3>
+  <p class="w3-center w3-large">У нас более 10 опытных педагогов. Вот некотороые из них:</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="images/alyona.jpg" alt="Alyona" style="width:100%">
+        <div class="w3-container">
+          <h3>Alyona</h3>
+          <p style="height:70px" class="w3-opacity">Spent a year in Nottingham, Great Britain practicing English.</p>
+          <p style="height: 150px; overflow: auto">"I'm deeply in love with the English language, culture,literature and football. Why teaching? Well, for me it’s all about helping people to reach their full potential and giving them the confidence to try things they always find difficult. I had graduated from one the best linguistic Universities - Moscow State Linguistic University.</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="images/dmitry.jpg" alt="Dmitry" style="width:100%">
+        <div class="w3-container">
+          <h3>Dmitry</h3>
+          <p style="height:70px" class="w3-opacity">English Teacher and Photographer</p>
+          <p style="height: 150px; overflow: auto">"I have a Master’s Degree in Media Studies and Production with an Undergraduate Degree in Political Science and Mass Communications.  I like to engage in philosophical discussion pertaining to technology and society.  I am an avid photographer and believe that this medium can be used to better understand how information is created, managed and distributed."</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="images/katrin.jpg" alt="Katrin" style="width:100%">
+        <div class="w3-container">
+          <h3>Katrin</h3>
+          <p style="height:70px" class="w3-opacity">Сertified English teacher with over 9 years of professional teaching experience.</p>
+          <p style="height: 150px; overflow: auto">'Being a translator originally, I undertook an internship at the Ministry of Foreign Affairs of Russian Federation, then I switched to teaching English. I used to teach pilots and foreign pupils, but now I’m involved in teaching children, adults and corporate students.'</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="images/helen.jpg" alt="Helen" style="width:100%">
+        <div class="w3-container">
+          <h3>Helen</h3>
+          <p style="height:70px" class="w3-opacity">Practiced English and German in Potsdam, Germany</p>
+          <p style="height: 150px; overflow: auto">Teaching plays an important role in my heart. It's always interesting to meet new people, learn something new from them, share their emotions and their achievements. I also speak German and Spanish. I make my classes productive, interesting and student-centered! Visit our clubs that will help you improve your communicative skills! </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section "Statistics" -->
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">с 2011 года</span>
+    <br>работаем в Москве
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">более 5000</span>
+    <br>выпускников, свободно владеющих английским
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">200+</span>
+    <br>человек посещают наш учебный центр каждую неделю
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">20+</span>
+    <br>корпоративных клиентов доверяют нам процесс обучения своих сотрудников
+  </div>
+</div>
+
+<!-- МЕТОДИКА Section -->
+<div class="w3-container" style="padding:128px 16px" id="work">
+  <h3 class="w3-center">МЕТОДИКА</h3>
+  <p class="w3-center w3-large" style="margin:0 8% 0 8%">Мы делаем все, чтобы вы начали говорить в первый месяц обучения. Для этого мы используем самые современные учебные материалы, видео-уроки, аудирование с радио-программами из США и Британии, тесты и игры.</p>
+  <p class="w3-center w3-large">Мы так уверены в качестве наших услуг, что предлагаем вам <strong>первые три пробных урока</strong> посетить без оплаты!</p>
+
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <img src="images/inclass_katrin_min.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Занятия проходят в группах от 2 до 6 человек.">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="images/anna_photo.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Все преподаватели проходят жесткий отбор и длительное обучение.">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="images/dmirty_ind_min.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Система контроля качества позволяет предоставлять максимальной высокий уровень услуг.">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="images/book_cover.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="В своей работе мы используем самые современные, тщательно отобранные учебные материалы, включая систему для дополнительного онлайн обучения.">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="images/business_cover.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Мы являемся официальным партнером компаний Oxford и Pearson.">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="images/alena_lesson.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A camera">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="images/alex_photo.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A typewriter">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="images/teacher_whiteboard_700.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tableturner">
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
+
+
+
+
+<!-- "FAQ" -->
+<div class="w3-container w3-light-grey" style="padding:50px 16px" id="faq">
+
+    <div>
+      <h3 align="center">FAQ : Часто задаваемые вопросы</h3>
+      <h6 style="color: grey" align="center">(кликните по вопросу, чтобы увидеть подробную информацию)</h6>
+      
+      <p class="question" style="font-size: 110%"><i class="fas fa-plus-circle" style="margin-right: 20px"></i>Сколько времени нужно чтобы выучить английский язык с нуля до уровня Intermediate?</p>
+      <p class="answer" style="color: grey"><i class="fas fa-check" style="margin-right: 20px"></i>Если вы не изучали английский язык ранее, то вам нужно начать с уровня, который называется Beginner (или Starter). На этом уровне вы освоите базовые принципы английского языка и научитесь говорить о себе, своей профессии, интересах и своей семье. Этот начальный уровень длится примерно 4 месяца с учетом расписания 2 раза в неделю по 2 ак. часа. Далее вы сдаете небольшой экзамен и переходите на уровень Elementary, который длится 4-5 месяцев. Следующий уровень называется Pre-intermediate и его продолжительность составляет 5-6 месяцев. Далее - уровень Intermediate (6-7 месяцев), потом - Upper intermediate (7-8 месяцев), и наконец, уровень Advanced (8 месяцев) - вы знаете английский в совершенстве! Большинству современных людей хватает уровня Intermediate. Как видите, его можно освоить с нуля за 15 месяцев.</p>
+ 
+      <p class="question" style="font-size: 110%"><i class="fas fa-plus-circle" style="margin-right: 20px"></i>Какие учебные материалы используются в школе ILI?</p>
+      <p class="answer" style="color: grey"><i class="fas fa-check" style="margin-right: 20px"></i>Самые современные и тщательно отобранные для каждого уровня. В большинстве случаев учебные материалы выбирает преподаватель с учетом уровня группы, ваших целей и задач (например, больше разговорной практики или больше грамматики). Есть учебные материалы, содержащие домашнюю работу в формате онлайн (упражнения выполняются на специальном сайте в личном кабинете), а есть рабочие тетради в формате на бумаге. Мы сотруднчиаем с ведущими британскими и американскими издательствами: Oxford (учебник English File), Pearson (учебник Speakout), National Geographic (учебник Outcomes).</p>
+
+      <p class="question" style="font-size: 110%"><i class="fas fa-plus-circle" style="margin-right: 20px"></i>Какой возраст учеников в школе ILI?</p>
+      <p class="answer" style="color: grey"><i class="fas fa-check" style="margin-right: 20px"></i>Мы принимаем всех желающих от 16 лет и старше. Большинство наших учащихся - это люди от 20 до 45 лет. Мы особо дорожим и заботимся о людях старшего возраста, которые приняли замечательное решение изучить английский язык.</p>
+
+
+    </div>
+  </div>
+
+
+<!-- FAQ SCRIPT -->
+<script>
+$(document).ready(function() {
+$('.answer').hide();
+
+$('.question').click(function(){
+var $answer = $(this).next('.answer');
+if ($answer.is(':hidden')) {
+  $answer.slideDown();
+
+  $(this).addClass('close');
+}else{
+  $answer.slideUp();
+  $(this).removeClass('close');
+}
+});//окончание click
+}); // end ready
+</script>
+
+
+
+
+
+<!-- Pricing Section -->
+<div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="pricing">
+  <h3>СТОИМОСТЬ</h3>
+  <p class="w3-large">обучения в группах в International Language Institute.</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Абонемент на 1 месяц</li>
+        <li class="w3-padding-16"><b>8 занятий</b> по 2 ак.ч.</li>
+        <li class="w3-padding-16"><b>1 неделя</b> заморозки занятий</li>
+        <li class="w3-padding-16"><b>30% скидка</b> на учебник</li>
+        <li class="w3-padding-16">Абонемент действует в течение 1 месяца, начиная со 2-го занятия.</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">11 990 руб.</h2>
+          <span class="w3-opacity">в месяц</span>
+        </li>
+
+        <li class="w3-opacity">Стоимость продления составит: <br>7 990 руб. за 1 мес. или 13 980 руб. за 2 мес.</li>
+
+        <li class="w3-light-grey w3-padding-24">
+          <a href="https://goo.gl/forms/3zxHtrgqvP8PhIF22" target="_blank" class="w3-button w3-black w3-padding-large">
+          Записаться на пробный урок</a>
+        </li>
+      </ul>
+    </div>
+    <div class="w3-third">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-red w3-xlarge w3-padding-48">Абонемент на 2 месяца</li>
+        <li class="w3-padding-16"><b>16 занятий</b> по 2 ак.ч.</li>
+        <li class="w3-padding-16"><b>2 недели</b> заморозки занятий</li>
+        <li class="w3-padding-16"><b>50% скидка</b> на учебник</li>
+        <li class="w3-padding-16">Абонемент действует в течение 2 месяцев, начиная со 2-го занятия.</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">19 990 руб.</h2>
+          <span class="w3-opacity">в месяц</span>
+        </li>
+        <li class="w3-opacity">Стоимость продления составит: <br>7 990 руб. за 1 мес. или 13 980 руб. за 2 мес.</li>
+        <li class="w3-light-grey w3-padding-24">
+          <a href="https://goo.gl/forms/3zxHtrgqvP8PhIF22" target="_blank" class="w3-button w3-black w3-padding-large">
+          Записаться на пробный урок</a>
+        </li>
+      </ul>
+    </div>
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-red w3-xlarge w3-padding-48">Абонемент на 3 месяца</li>
+        <li class="w3-padding-16"><b>24 занятия</b> по 2 ак.ч.</li>
+        <li class="w3-padding-16"><b>4 недели</b> заморозки занятий</li>
+        <li class="w3-padding-16"><b>70% скидка</b> на учебник</li>
+        <li class="w3-padding-16">Абонемент действует в течение 3 месяцев, начиная со 2-го занятия.</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">28 470 руб.</h2>
+        <li class="w3-opacity">Стоимость продления составит: <br>7 990 руб. за 1 мес. или 13 980 руб. за 2 мес.</li>
+          <span class="w3-opacity">в месяц</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <a href="https://goo.gl/forms/3zxHtrgqvP8PhIF22" target="_blank" class="w3-button w3-black w3-padding-large">
+          Записаться на пробный урок</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section - "Удобство оплаты" -->
+<div class="w3-container" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Удобство оплаты</h3>
+      <p>Для оплаты обучения в International Language Institute вы можете воспользоваться следующими способами:</p>
+      <ul>
+        <li>Банковской картой на ресепшн</li>
+        <li>Банковской картой на нашем сайте</li>
+        <li>Наличными на ресепшн</li>
+        <li>Банковский перевод на расчетный счет</li>
+      </ul>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="images/payment.jpeg" alt="Курсы английского ILI" width="400" height="394">
+    </div>
+  </div>
+</div>
+
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">КОНТАКТЫ</h3>
+  <p class="w3-center w3-large">Запишитесь на бесплатный пробный урок сегодня:</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-half">
+      <p><i class="far fa-compass fa-fw w3-xxlarge w3-margin-right"></i> Москва, ул. Большая Бронная, 23 стр.1, офис 425<br> 3 минуты от м. Пушкинская, Тверская</p>
+      <p><i class="fas fa-mobile-alt fa-fw w3-xxlarge w3-margin-right"></i> +7 (495) 792-4490</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: info@ili.moscow</p>
+
+      
+      <p><a href="https://goo.gl/forms/3zxHtrgqvP8PhIF22" target="_blank" class="w3-button w3-red"><i class="fa fa-th"> </i> Записаться на пробный урок</a></p>
+      
+      <p><a href="https://goo.gl/forms/JBRt0ulTVyh5bUj43" target="_blank" class="w3-button w3-grey"><i class="far fa-question-circle"> </i> Пройдите тест для определения уровня</a></p>
+    </div>
+    
+
+    <div class="w3-half">
+      
+      <div> <img src="images/map_ili.jpg" style="width:100%"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>В начало</a>
+
+  <p>Разработано для International Language Institute. Все права защищены.</p>
+</footer>
+ 
+<!-- Add Google Maps -->
+<script>
+function myMap()
+{
+  myCenter=new google.maps.LatLng(41.878114, -87.629798);
+  var mapOptions= {
+    center:myCenter,
+    zoom:12, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+    if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+    } else {
+        mySidebar.style.display = 'block';
+    }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter49156693 = new Ya.Metrika2({
+                    id:49156693,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/tag.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks2");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/49156693" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+<!-- VK Widget -->
+<script type="text/javascript" src="https://vk.com/js/api/openapi.js?154"></script>
+
+<!-- VK Widget -->
+<div id="vk_community_messages"></div>
+<script type="text/javascript">
+VK.Widgets.CommunityMessages("vk_community_messages", 126738659, {expandTimeout: "40000",disableExpandChatSound: "1",tooltipButtonText: "Мы готовы ответить на ваши вопросы!"});
+</script>
+<!-- VK Widget -->
+
+
+
+</body>
+</html>
