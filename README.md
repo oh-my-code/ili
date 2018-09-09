@@ -1,2 +1,1 @@
-# ili
-Website for International Language Institute
+https://oh-my-code.github.io/ili/
